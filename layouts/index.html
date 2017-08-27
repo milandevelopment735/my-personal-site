@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	{{ partial "head.html" . }}
+	<body>
+		<!-- START PRELOADER -->
+		{{ partial "preloader.html" . }}
+		<!-- / END PRELOADER -->
+
+		<!-- START HOMEPAGE DESIGN AREA -->
+		<header id="home" class="welcome-area">
+			<div class="header-top-area">
+				<div class="container">
+					{{ partial "header.html" . }}
+				</div>
+			</div>
+			{{ partial "welcome.html" . }}
+		</header>
+		<!-- / END HOMEPAGE DESIGN AREA -->
+
+		<!-- START ABOUT DESIGN AREA -->
+		{{ partial "about.html" . }}
+		<!-- / END ABOUT DESIGN AREA -->
+
+		<!-- START SERVICES DESIGN AREA -->
+		{{ partial "service.html" . }}
+		<!-- / END SERVICES DESIGN AREA -->
+
+		<!-- START WORK DESIGN AREA -->
+		{{ partial "work.html" . }}
+		<!-- / END START WORK DESIGN AREA -->
+
+		<!-- START TESTIMONIAL DESIGN AREA -->
+		{{ partial "testimonial.html" . }}
+		<!-- / END TESTIMONIAL DESIGN AREA -->
+
+		<!-- START CONTACT DESIGN AREA -->
+		{{ partial "contact.html" . }}
+		<!-- / END CONTACT DESIGN AREA -->
+
+		<!-- START FOOTER DESIGN AREA -->
+		{{ partial "footer.html" . }}
+		<!-- / END FOOTER DESIGN AREA -->
+
+		{{ partial "script.html" . }}
+	</body>
+</html>
